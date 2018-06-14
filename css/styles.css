@@ -1,0 +1,21 @@
+a:link, a:visited, a:active {
+  color: #000000;
+  text-decoration: none;
+}
+a:hover {
+  color: hotpink;
+  text-decoration: none;
+}
+.logo img, .footer a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  max-width: 70%;
+  max-height: 70%;
+}
+.footer {
+  position: absolute;
+  bottom: 75px;
+  width: 99%;
+}
