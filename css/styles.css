@@ -6,9 +6,9 @@ a:hover {
   color: hotpink;
   text-decoration: none;
 }
-.logo img, .footer a {
+.logo img {
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
   max-width: 70%;
@@ -16,6 +16,9 @@ a:hover {
 }
 .footer {
   position: absolute;
-  bottom: 75px;
-  width: 99%;
+  bottom: 5%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  max-width: 100%;
+  text-shadow: 1px 1px #F5F5F5;
 }
