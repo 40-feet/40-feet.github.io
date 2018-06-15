@@ -6,6 +6,10 @@ a:hover {
   color: hotpink;
   text-decoration: none;
 }
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 25px;
+}
 .logo img {
   position: absolute;
   top: 40%;
